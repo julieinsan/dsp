@@ -37,7 +37,7 @@ import sklearn
 
 Did you install Python 2 or 3? Why? How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> From the documentation, Anaconda ships with both 2.7 and 3.4, so I have both, but it must default to 2.7.6 which you can check by typing python -V on an unfamiliar computer.
 
 ---
 
