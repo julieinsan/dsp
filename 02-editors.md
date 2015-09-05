@@ -61,6 +61,6 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I'm using Sublime Text 2/3.  I'm used to it and I did a quick google search and it seems to be one of the most popular among Python programmers.  Sublime text lets you split your workspace into multiple columns (if you're working on several related files at once, this is a great feature), place multiple cursors to modify code in several places at once, and set default indentation spacing, among a vast array of other time savers.  Useful keyboard shortcuts include: Ctrl-Shift-/ to comment out a block of code, Ctrl-/ to comment just current line, Ctrl-] to indent current line, Ctrl-Shift-P gets you to the command prompt.  Customization is done by plug-in through the Package controller.  I have plug-ins installed that tailor the auto-complete based on the programming language, do keyword highlighting, etc.
 
 ---
