@@ -12,7 +12,7 @@ these in a couple of hours.
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > chmod -R [directory] 755 changes the permissions of directory and files within, -R means include directory's contents, chown <user>:<group> <file> changes the ownership of <file> to user and group, 
+> > chmod -R [directory] 755 changes the permissions of directory and files within, -R means include directory's contents, chown <user>:<group> <file> changes the ownership of <file> to user and group, find ~ -size +10M: finds from ~ directory files whose size exceed 10Mb, find -name "*.txt" finds all files with .txt extension, man <cmd> gives the help information for a command with the relevant arguments, cd ..: go up a level, cd <path>: go to specified directory, pwd: print working directory, exit: close shell.
 
 ---
 
@@ -21,7 +21,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 What does `ls` do? What do `ls -a`, `ls -l`, and `ls -lh` do? What combinations of those flags are meaningful?
 
-> > ls lists information about files in the current directory.  -a stands for all and tells the command not to ignore files that start with a period, i.e. hidden files. -l stands for long listing format.  I use this to examine the permissions for the files in the directory. -lh does the same as -l but prints sizes in human readable format. You can use -la to list all files, including hidden files, in long format.  Yo
+> > ls lists information about files in the current directory.  -a stands for all and tells the command not to ignore files that start with a period, i.e. hidden files. -l stands for long listing format.  I use this to examine the permissions for the files in the directory. -lh does the same as -l but prints sizes in human readable format. You can use -la to list all files, including hidden files, in long format.  You can use ls -lah to list all files in long format with human-readable sizes.  Combining a with h doesn't make sense, unless you're using l.
 
 ---
 
